@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WisdomToothWebApp.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>2B5AD0774F14A1E90FFC682D46FB1B5B11792462</string>
+				<key>dateExpires</key>
+				<string>2022/08/26</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2B5AD0774F14A1E90FFC682D46FB1B5B11792462</string>
+						<key>dateExpires</key>
+						<string>2022/08/26</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>FBLPromises.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Y6H6TJMPYF</string>
+						<key>name</key>
+						<string>InVisionLab, Inc.,</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2B5AD0774F14A1E90FFC682D46FB1B5B11792462</string>
+						<key>dateExpires</key>
+						<string>2022/08/26</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>FirebaseAuth.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Y6H6TJMPYF</string>
+						<key>name</key>
+						<string>InVisionLab, Inc.,</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2B5AD0774F14A1E90FFC682D46FB1B5B11792462</string>
+						<key>dateExpires</key>
+						<string>2022/08/26</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>FirebaseCore.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Y6H6TJMPYF</string>
+						<key>name</key>
+						<string>InVisionLab, Inc.,</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2B5AD0774F14A1E90FFC682D46FB1B5B11792462</string>
+						<key>dateExpires</key>
+						<string>2022/08/26</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>FirebaseCoreDiagnostics.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Y6H6TJMPYF</string>
+						<key>name</key>
+						<string>InVisionLab, Inc.,</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2B5AD0774F14A1E90FFC682D46FB1B5B11792462</string>
+						<key>dateExpires</key>
+						<string>2022/08/26</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>FirebaseInstallations.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Y6H6TJMPYF</string>
+						<key>name</key>
+						<string>InVisionLab, Inc.,</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2B5AD0774F14A1E90FFC682D46FB1B5B11792462</string>
+						<key>dateExpires</key>
+						<string>2022/08/26</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>FirebaseMessaging.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Y6H6TJMPYF</string>
+						<key>name</key>
+						<string>InVisionLab, Inc.,</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2B5AD0774F14A1E90FFC682D46FB1B5B11792462</string>
+						<key>dateExpires</key>
+						<string>2022/08/26</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>GTMSessionFetcher.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Y6H6TJMPYF</string>
+						<key>name</key>
+						<string>InVisionLab, Inc.,</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2B5AD0774F14A1E90FFC682D46FB1B5B11792462</string>
+						<key>dateExpires</key>
+						<string>2022/08/26</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>GoogleDataTransport.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Y6H6TJMPYF</string>
+						<key>name</key>
+						<string>InVisionLab, Inc.,</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2B5AD0774F14A1E90FFC682D46FB1B5B11792462</string>
+						<key>dateExpires</key>
+						<string>2022/08/26</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>GoogleUtilities.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Y6H6TJMPYF</string>
+						<key>name</key>
+						<string>InVisionLab, Inc.,</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>2B5AD0774F14A1E90FFC682D46FB1B5B11792462</string>
+						<key>dateExpires</key>
+						<string>2022/08/26</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>nanopb.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Y6H6TJMPYF</string>
+						<key>name</key>
+						<string>InVisionLab, Inc.,</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>Y6H6TJMPYF.com.invisionlab-kr.wisdom-tooth-web-app</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>Y6H6TJMPYF</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>WisdomToothWebApp.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>8591fe2e-e176-43d1-ba13-829315d4def3</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.invisionlab-kr.wisdom-tooth-web-app</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>Y6H6TJMPYF</string>
+				<key>name</key>
+				<string>InVisionLab, Inc.,</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

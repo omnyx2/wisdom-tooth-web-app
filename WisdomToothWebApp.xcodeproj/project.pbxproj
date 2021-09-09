@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63CDCC4BA5E29C15CA28FBC4 /* Pods_WisdomToothWebApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9011EEC43F86CB80D446A4B /* Pods_WisdomToothWebApp.framework */; };
+		D34BE0BBB3F16D9AE78702B0 /* Pods_WisdomToothWebApp_WisdomToothWebAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3A46EA6AC05243A93DD406 /* Pods_WisdomToothWebApp_WisdomToothWebAppUITests.framework */; };
+		E151FE5311284379AE233837 /* Pods_WisdomToothWebAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A452334BBB1926F0E6C691 /* Pods_WisdomToothWebAppTests.framework */; };
+		FE3380A726E7BC2400E00E7F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3380A626E7BC2400E00E7F /* Reachability.swift */; };
+		FE80BB7A26E61A4C004224AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE80BB7926E61A4C004224AB /* GoogleService-Info.plist */; };
 		FE993DA426D65E50002A3462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE993DA326D65E50002A3462 /* AppDelegate.swift */; };
 		FE993DA626D65E50002A3462 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE993DA526D65E50002A3462 /* SceneDelegate.swift */; };
 		FE993DA826D65E50002A3462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE993DA726D65E50002A3462 /* ViewController.swift */; };
@@ -35,6 +40,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03BEFA34745B38A1FA1D5795 /* Pods-WisdomToothWebApp-WisdomToothWebAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WisdomToothWebApp-WisdomToothWebAppUITests.release.xcconfig"; path = "Target Support Files/Pods-WisdomToothWebApp-WisdomToothWebAppUITests/Pods-WisdomToothWebApp-WisdomToothWebAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1466CE609C6E396F11846542 /* Pods-WisdomToothWebApp-WisdomToothWebAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WisdomToothWebApp-WisdomToothWebAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-WisdomToothWebApp-WisdomToothWebAppUITests/Pods-WisdomToothWebApp-WisdomToothWebAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B3A46EA6AC05243A93DD406 /* Pods_WisdomToothWebApp_WisdomToothWebAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WisdomToothWebApp_WisdomToothWebAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		865BAB456703326FDE0FD8BA /* Pods-WisdomToothWebAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WisdomToothWebAppTests.debug.xcconfig"; path = "Target Support Files/Pods-WisdomToothWebAppTests/Pods-WisdomToothWebAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D50015B573DFC3AB530DEDF /* Pods-WisdomToothWebApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WisdomToothWebApp.release.xcconfig"; path = "Target Support Files/Pods-WisdomToothWebApp/Pods-WisdomToothWebApp.release.xcconfig"; sourceTree = "<group>"; };
+		94A452334BBB1926F0E6C691 /* Pods_WisdomToothWebAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WisdomToothWebAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9011EEC43F86CB80D446A4B /* Pods_WisdomToothWebApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WisdomToothWebApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91E96700DE29265C30FA904 /* Pods-WisdomToothWebApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WisdomToothWebApp.debug.xcconfig"; path = "Target Support Files/Pods-WisdomToothWebApp/Pods-WisdomToothWebApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EC00C893AB8B2696CB6D8441 /* Pods-WisdomToothWebAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WisdomToothWebAppTests.release.xcconfig"; path = "Target Support Files/Pods-WisdomToothWebAppTests/Pods-WisdomToothWebAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE3380A626E7BC2400E00E7F /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		FE80BB7926E61A4C004224AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		FE993DA026D65E50002A3462 /* WisdomToothWebApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WisdomToothWebApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE993DA326D65E50002A3462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE993DA526D65E50002A3462 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,7 @@
 		FE993DC126D65E53002A3462 /* WisdomToothWebAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WisdomToothWebAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE993DC526D65E53002A3462 /* WisdomToothWebAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisdomToothWebAppUITests.swift; sourceTree = "<group>"; };
 		FE993DC726D65E53002A3462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF67EC426E6F3ED0047072F /* WisdomToothWebApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WisdomToothWebApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CDCC4BA5E29C15CA28FBC4 /* Pods_WisdomToothWebApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E151FE5311284379AE233837 /* Pods_WisdomToothWebAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D34BE0BBB3F16D9AE78702B0 /* Pods_WisdomToothWebApp_WisdomToothWebAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF97CF080B981C27298DC468 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9011EEC43F86CB80D446A4B /* Pods_WisdomToothWebApp.framework */,
+				2B3A46EA6AC05243A93DD406 /* Pods_WisdomToothWebApp_WisdomToothWebAppUITests.framework */,
+				94A452334BBB1926F0E6C691 /* Pods_WisdomToothWebAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C87CCBAC32D405F2BC72852C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B91E96700DE29265C30FA904 /* Pods-WisdomToothWebApp.debug.xcconfig */,
+				8D50015B573DFC3AB530DEDF /* Pods-WisdomToothWebApp.release.xcconfig */,
+				1466CE609C6E396F11846542 /* Pods-WisdomToothWebApp-WisdomToothWebAppUITests.debug.xcconfig */,
+				03BEFA34745B38A1FA1D5795 /* Pods-WisdomToothWebApp-WisdomToothWebAppUITests.release.xcconfig */,
+				865BAB456703326FDE0FD8BA /* Pods-WisdomToothWebAppTests.debug.xcconfig */,
+				EC00C893AB8B2696CB6D8441 /* Pods-WisdomToothWebAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FE993D9726D65E50002A3462 = {
 			isa = PBXGroup;
 			children = (
@@ -83,8 +126,11 @@
 				FE993DB926D65E53002A3462 /* WisdomToothWebAppTests */,
 				FE993DC426D65E53002A3462 /* WisdomToothWebAppUITests */,
 				FE993DA126D65E50002A3462 /* Products */,
+				C87CCBAC32D405F2BC72852C /* Pods */,
+				AF97CF080B981C27298DC468 /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		FE993DA126D65E50002A3462 /* Products */ = {
 			isa = PBXGroup;
@@ -99,6 +145,7 @@
 		FE993DA226D65E50002A3462 /* WisdomToothWebApp */ = {
 			isa = PBXGroup;
 			children = (
+				FEF67EC426E6F3ED0047072F /* WisdomToothWebApp.entitlements */,
 				FE993DA326D65E50002A3462 /* AppDelegate.swift */,
 				FE993DA526D65E50002A3462 /* SceneDelegate.swift */,
 				FE993DA726D65E50002A3462 /* ViewController.swift */,
@@ -106,6 +153,8 @@
 				FE993DAC26D65E52002A3462 /* Assets.xcassets */,
 				FE993DAE26D65E52002A3462 /* LaunchScreen.storyboard */,
 				FE993DB126D65E52002A3462 /* Info.plist */,
+				FE80BB7926E61A4C004224AB /* GoogleService-Info.plist */,
+				FE3380A626E7BC2400E00E7F /* Reachability.swift */,
 			);
 			path = WisdomToothWebApp;
 			sourceTree = "<group>";
@@ -135,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE993DCA26D65E53002A3462 /* Build configuration list for PBXNativeTarget "WisdomToothWebApp" */;
 			buildPhases = (
+				10E7B75F1DC047FCB0D7F50C /* [CP] Check Pods Manifest.lock */,
 				FE993D9C26D65E50002A3462 /* Sources */,
 				FE993D9D26D65E50002A3462 /* Frameworks */,
 				FE993D9E26D65E50002A3462 /* Resources */,
+				7E74D79959386458FFF1C451 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE993DCD26D65E53002A3462 /* Build configuration list for PBXNativeTarget "WisdomToothWebAppTests" */;
 			buildPhases = (
+				BBD94683F1773FAB86099E00 /* [CP] Check Pods Manifest.lock */,
 				FE993DB226D65E53002A3462 /* Sources */,
 				FE993DB326D65E53002A3462 /* Frameworks */,
 				FE993DB426D65E53002A3462 /* Resources */,
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FE993DD026D65E53002A3462 /* Build configuration list for PBXNativeTarget "WisdomToothWebAppUITests" */;
 			buildPhases = (
+				E87638576B769A3208D88B5B /* [CP] Check Pods Manifest.lock */,
 				FE993DBD26D65E53002A3462 /* Sources */,
 				FE993DBE26D65E53002A3462 /* Frameworks */,
 				FE993DBF26D65E53002A3462 /* Resources */,
+				B8A713206EA55DAA6F63E9D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE993DB026D65E52002A3462 /* LaunchScreen.storyboard in Resources */,
+				FE80BB7A26E61A4C004224AB /* GoogleService-Info.plist in Resources */,
 				FE993DAD26D65E52002A3462 /* Assets.xcassets in Resources */,
 				FE993DAB26D65E50002A3462 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +308,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10E7B75F1DC047FCB0D7F50C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WisdomToothWebApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E74D79959386458FFF1C451 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WisdomToothWebApp/Pods-WisdomToothWebApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WisdomToothWebApp/Pods-WisdomToothWebApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WisdomToothWebApp/Pods-WisdomToothWebApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8A713206EA55DAA6F63E9D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WisdomToothWebApp-WisdomToothWebAppUITests/Pods-WisdomToothWebApp-WisdomToothWebAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WisdomToothWebApp-WisdomToothWebAppUITests/Pods-WisdomToothWebApp-WisdomToothWebAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WisdomToothWebApp-WisdomToothWebAppUITests/Pods-WisdomToothWebApp-WisdomToothWebAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBD94683F1773FAB86099E00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WisdomToothWebAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E87638576B769A3208D88B5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WisdomToothWebApp-WisdomToothWebAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FE993D9C26D65E50002A3462 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +418,7 @@
 			files = (
 				FE993DA826D65E50002A3462 /* ViewController.swift in Sources */,
 				FE993DA426D65E50002A3462 /* AppDelegate.swift in Sources */,
+				FE3380A726E7BC2400E00E7F /* Reachability.swift in Sources */,
 				FE993DA626D65E50002A3462 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,17 +592,23 @@
 		};
 		FE993DCB26D65E53002A3462 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B91E96700DE29265C30FA904 /* Pods-WisdomToothWebApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WisdomToothWebApp/WisdomToothWebApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = Y6H6TJMPYF;
 				INFOPLIST_FILE = WisdomToothWebApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Invisionlab.WisdomToothWebApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invisionlab-kr.wisdom-tooth-web-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,16 +616,20 @@
 		};
 		FE993DCC26D65E53002A3462 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D50015B573DFC3AB530DEDF /* Pods-WisdomToothWebApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WisdomToothWebApp/WisdomToothWebApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = Y6H6TJMPYF;
 				INFOPLIST_FILE = WisdomToothWebApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Invisionlab.WisdomToothWebApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invisionlab-kr.wisdom-tooth-web-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,9 +638,11 @@
 		};
 		FE993DCE26D65E53002A3462 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865BAB456703326FDE0FD8BA /* Pods-WisdomToothWebAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WisdomToothWebAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -490,9 +661,11 @@
 		};
 		FE993DCF26D65E53002A3462 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC00C893AB8B2696CB6D8441 /* Pods-WisdomToothWebAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WisdomToothWebAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
@@ -511,8 +684,10 @@
 		};
 		FE993DD126D65E53002A3462 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1466CE609C6E396F11846542 /* Pods-WisdomToothWebApp-WisdomToothWebAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WisdomToothWebAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -530,8 +705,10 @@
 		};
 		FE993DD226D65E53002A3462 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BEFA34745B38A1FA1D5795 /* Pods-WisdomToothWebApp-WisdomToothWebAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = WisdomToothWebAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
